@@ -1,0 +1,76 @@
+
+
+:root {
+    --primary-color:#ECC55A;
+    --text-color:black;
+}
+
+body{
+    margin:0px;
+}
+
+.header {
+    background-color: var(--primary-color);
+    color:var(--text-color);
+    margin:0rem 0rem 2rem 0rem;
+    padding:1rem;
+}
+
+.header .heading{
+    text-align: center;
+    
+}
+
+textarea{
+    margin:auto;
+    width:50%;
+    height:25vh;
+    padding:1rem;
+    display:block;
+    float:center;
+}
+
+.translate-button{
+    text-align: center;
+    margin:1rem;
+} 
+#btn-translate{
+    background-color:var(--primary-color);
+    border: none;
+    color: var(--text-color);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#output-box{
+    border:1px solid black;
+    /* padding:1rem;
+    height:20vh;
+    width:30%; */
+    width:50%;
+    height:25vh;
+    padding:1rem;
+    display:block;
+    margin:auto;
+    
+}
+
+.footer{
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+
+}
+
+.footer .footer-heading{
+    text-align:center;
+    margin:0px;
+    
+}
+
+p{
+    margin-bottom: 0px;
+}
