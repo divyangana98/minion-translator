@@ -8,9 +8,9 @@ function getTranslationURL(text){
     return serverURL + "?" +"text="+text;
 }
 
-// function errorHandler(error){
-//     console.log("Error is "+error);
-// }
+function errorHandler(error){
+    console.log("Error is "+error);
+}
 
 function clickHandler(){
 
@@ -22,7 +22,7 @@ function clickHandler(){
             var outputText = json.contents.translated;
             outputDiv.innerText = outputText;
         })
-        // .then(errorHandler);
+        .catch(errorHandler);
 };
 
 btnTranslate.addEventListener("click",clickHandler);
