@@ -5,3 +5,5 @@
  - html
  - css 
  - javascript 
+
+ ### [Live project link](https://div-minion-translator.netlify.app/)
